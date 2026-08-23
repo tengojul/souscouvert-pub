@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Politique de confidentialité — Sous Couvert</title>
+    <meta
+      name="description"
+      content="Sous Couvert ne collecte aucune donnée : ni compte, ni serveur, ni requête réseau." />
+    <style>
+      /* Page autonome, destinée à être hébergée telle quelle (GitHub Pages suffit). Aucune
+         ressource externe : ni police, ni feuille de style, ni script — c'eût été contradictoire
+         avec ce que la page affirme. */
+      :root {
+        color-scheme: light dark;
+        --bg: #fdfdfc;
+        --fg: #1b1a17;
+        --muted: #5d5a52;
+        --rule: #e2dfd7;
+        --accent: #8a6a2f;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0d0b14;
+          --fg: #eae6dd;
+          --muted: #9c968a;
+          --rule: #2a2635;
+          --accent: #c9a961;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 3rem 1.25rem 5rem;
+        background: var(--bg);
+        color: var(--fg);
+        font: 16px/1.65 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+          sans-serif;
+      }
+      main {
+        max-width: 42rem;
+        margin: 0 auto;
+      }
+      h1 {
+        margin: 0 0 0.25rem;
+        font-size: 1.75rem;
+        line-height: 1.2;
+        letter-spacing: -0.01em;
+      }
+      h2 {
+        margin: 2.5rem 0 0.75rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--rule);
+        font-size: 1.1rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+      .date {
+        margin: 0 0 2rem;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+      .lede {
+        font-size: 1.1rem;
+      }
+      ul {
+        padding-left: 1.25rem;
+      }
+      li {
+        margin: 0.4rem 0;
+      }
+      code {
+        padding: 0.1em 0.35em;
+        border-radius: 4px;
+        background: var(--rule);
+        font-size: 0.9em;
+      }
+      a {
+        color: var(--accent);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 2px;
+      }
+      footer {
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--rule);
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Politique de confidentialité</h1>
+      <p class="date">Sous Couvert — dernière mise à jour : 23 août 2026</p>
+
+      <p class="lede">
+        Sous Couvert ne collecte rien. L'application n'a ni compte, ni serveur, ni service tiers, ni
+        publicité, ni outil de mesure d'audience. Elle ne fait aucune requête réseau. Tout ce que
+        vous saisissez reste sur votre téléphone et disparaît avec l'application.
+      </p>
+
+      <h2>Ce que l'application enregistre, et où</h2>
+      <p>
+        Trois choses, uniquement pour que la partie survive à une fermeture de l'application :
+      </p>
+      <ul>
+        <li>les prénoms que vous tapez pour désigner les joueurs ;</li>
+        <li>les paires de mots que vous écrivez vous-même, si vous en écrivez ;</li>
+        <li>l'état de la partie en cours et les scores.</li>
+      </ul>
+      <p>
+        Ces données sont écrites dans le stockage privé de l'application, sur votre appareil. Aucune
+        autre application ne peut les lire. Elles ne sont ni transmises, ni sauvegardées ailleurs :
+        elles n'ont pas plus de valeur qu'un bout de papier posé sur la table.
+      </p>
+
+      <h2>Ce que l'application ne fait pas</h2>
+      <ul>
+        <li>Aucune donnée n'est envoyée à qui que ce soit — développeur compris.</li>
+        <li>Aucun compte, aucune inscription, aucune adresse e-mail demandée.</li>
+        <li>Aucune publicité, aucun achat intégré, aucun suivi publicitaire.</li>
+        <li>Aucun identifiant publicitaire, aucun identifiant d'appareil n'est lu.</li>
+        <li>Aucun accès aux contacts, à la position, à la caméra, au micro, aux photos.</li>
+        <li>Aucune statistique d'usage, aucun rapport de plantage.</li>
+      </ul>
+
+      <h2>Effacer vos données</h2>
+      <p>
+        Désinstaller l'application les supprime toutes. Il n'y a rien à demander à personne, aucune
+        procédure, aucun délai : rien n'existe en dehors de votre téléphone. « Effacer les données »
+        dans les réglages Android de l'application produit le même résultat sans la désinstaller.
+      </p>
+
+      <h2>Enfants</h2>
+      <p>
+        L'application ne collecte aucune donnée, donc aucune donnée d'enfant. Elle ne contient ni
+        publicité ni contenu généré par d'autres utilisateurs.
+      </p>
+
+      <h2>Permissions Android</h2>
+      <p>
+        L'application déclare <code>INTERNET</code> et <code>ACCESS_NETWORK_STATE</code>. Elles sont
+        héritées du cadre technique sur lequel l'application est construite (React Native) et ne
+        sont utilisées par aucune fonctionnalité : le code ne contient aucun appel réseau. Ce sont
+        des permissions dites normales, accordées automatiquement, qui n'ouvrent l'accès à aucune
+        donnée personnelle.
+      </p>
+
+      <h2>Modifications</h2>
+      <p>
+        Toute modification de cette politique sera publiée sur cette page, avec une nouvelle date de
+        mise à jour. L'application n'ayant rien à collecter, aucune modification substantielle n'est
+        prévue.
+      </p>
+
+      <h2>Contact</h2>
+      <p>Pour toute question sur cette politique : <a href="mailto:tengojul1990@gmail.com">tengojul1990@gmail.com</a></p>
+
+      <footer>Sous Couvert — jeu de bluff hors ligne. Aucune donnée ne quitte votre appareil.</footer>
+    </main>
+  </body>
+</html>
